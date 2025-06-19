@@ -1,0 +1,7 @@
+﻿services:
+  excel-mapper-column-info:
+    image: excel-mapper-column-info
+    build:
+      context: .
+      dockerfile: excel-mapper-column-info/Dockerfile
+
